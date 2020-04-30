@@ -1,1 +1,1 @@
-This is repossitory for AUV-IITK Electrical subsytem
+This is repository for AUV-IITK Electrical subsytem
