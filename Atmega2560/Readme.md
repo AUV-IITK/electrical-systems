@@ -3,4 +3,4 @@
 
 The files contains the scematic and the PCB layout done in KICAD and would be updated from time to time.
 
-Updated schematic for PCB, added LED and linked footprints for various elements used in the circuit. Also added two folders for footprints usde in the circuit. 
+Updated schematic for PCB, added LED and linked footprints for various elements used in the circuit. Also added two folders for footprints usde in the circuit. **2560_Footprints** contains the files for predefined footprints available in KICAD. the other **Molex_Connector** contains the footprints of molex connectors to be used in the project.
