@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ESC)(type KiCad)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Footprints/ESC.pretty")(options "")(descr ""))
+  (lib (name molex)(type KiCad)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Footprints/Molex.pretty")(options "")(descr ""))
+)
