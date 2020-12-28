@@ -1270,17 +1270,6 @@ Text Label 7450 4900 0    50   ~ 0
 D+
 Text Label 7950 4900 0    50   ~ 0
 D-
-$Comp
-L Device:L L1
-U 1 1 6021CC21
-P 7300 4100
-F 0 "L1" V 7122 4100 50  0000 C CNN
-F 1 "L" V 7213 4100 50  0000 C CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 7300 4100 50  0001 C CNN
-F 3 "~" H 7300 4100 50  0001 C CNN
-	1    7300 4100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7450 4100 7700 4100
 Wire Wire Line
@@ -1331,6 +1320,21 @@ Wire Wire Line
 	3650 5700 3200 5700
 Wire Wire Line
 	3650 5800 3200 5800
-Text Label 9250 4450 0    50   ~ 0
+$Comp
+L Device:Fuse F1
+U 1 1 5FE9E3AE
+P 7300 4100
+F 0 "F1" V 7103 4100 50  0000 C CNN
+F 1 "500mA" V 7194 4100 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7230 4100 50  0001 C CNN
+F 3 "~" H 7300 4100 50  0001 C CNN
+	1    7300 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 4450 9700 4450
+Wire Wire Line
+	9700 4450 9700 4700
+Text Label 9700 4700 0    50   ~ 0
 GND
 $EndSCHEMATC
