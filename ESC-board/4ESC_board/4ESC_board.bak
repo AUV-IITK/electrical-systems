@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+LIBS:4ESC_board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESCPINS:ESCPINS U1
+U 1 1 5FEA0291
+P 3350 2700
+F 0 "U1" H 3300 3637 60  0000 C CNN
+F 1 "ESCPINS" H 3300 3531 60  0000 C CNN
+F 2 "ESC:ESC_footprint" H 3350 2700 60  0001 C CNN
+F 3 "" H 3350 2700 60  0001 C CNN
+	1    3350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESCPINS:ESCPINS U2
+U 1 1 5FEA037F
+P 5350 2700
+F 0 "U2" H 5300 3637 60  0000 C CNN
+F 1 "ESCPINS" H 5300 3531 60  0000 C CNN
+F 2 "ESC:ESC_footprint" H 5350 2700 60  0001 C CNN
+F 3 "" H 5350 2700 60  0001 C CNN
+	1    5350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESCPINS:ESCPINS U3
+U 1 1 5FEA0417
+P 7450 2650
+F 0 "U3" H 7400 3587 60  0000 C CNN
+F 1 "ESCPINS" H 7400 3481 60  0000 C CNN
+F 2 "ESC:ESC_footprint" H 7450 2650 60  0001 C CNN
+F 3 "" H 7450 2650 60  0001 C CNN
+	1    7450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESCPINS:ESCPINS U4
+U 1 1 5FEA04B8
+P 9450 2650
+F 0 "U4" H 9400 3587 60  0000 C CNN
+F 1 "ESCPINS" H 9400 3481 60  0000 C CNN
+F 2 "ESC:ESC_footprint" H 9450 2650 60  0001 C CNN
+F 3 "" H 9450 2650 60  0001 C CNN
+	1    9450 2650
+	1    0    0    -1  
+$EndComp
+Text Label 2650 2650 2    50   ~ 0
+GND
+Text Label 4650 2650 2    50   ~ 0
+GND
+Text Label 6750 2600 2    50   ~ 0
+GND
+Text Label 8750 2600 2    50   ~ 0
+GND
+Text Label 2650 2550 2    50   ~ 0
+VIN
+Text Label 4650 2550 2    50   ~ 0
+VIN
+Text Label 6750 2500 2    50   ~ 0
+VIN
+Text Label 8750 2500 2    50   ~ 0
+VIN
+Text Label 2650 2350 2    50   ~ 0
+MGND
+Text Label 4650 2350 2    50   ~ 0
+MGND
+Text Label 6750 2300 2    50   ~ 0
+MGND
+Text Label 8750 2300 2    50   ~ 0
+MGND
+Text Label 2650 2250 2    50   ~ 0
+SPEED1
+Text Label 4650 2250 2    50   ~ 0
+SPEED2
+Text Label 6750 2200 2    50   ~ 0
+SPEED3
+Text Label 8750 2200 2    50   ~ 0
+SPEED4
+Text Label 3950 2250 0    50   ~ 0
+TB1
+Text Label 3950 2400 0    50   ~ 0
+TG1
+Text Label 3950 2600 0    50   ~ 0
+TW1
+Text Label 5950 2250 0    50   ~ 0
+TB2
+Text Label 5950 2400 0    50   ~ 0
+TG2
+Text Label 5950 2600 0    50   ~ 0
+TW2
+Text Label 8050 2200 0    50   ~ 0
+TB3
+Text Label 8050 2350 0    50   ~ 0
+TG3
+Text Label 8050 2550 0    50   ~ 0
+TW3
+Text Label 10050 2200 0    50   ~ 0
+TB4
+Text Label 10050 2350 0    50   ~ 0
+TG4
+Text Label 10050 2550 0    50   ~ 0
+TW4
+$Comp
+L 6x2_connector:6x2_connector C3
+U 1 1 5FEA0F57
+P 6250 4300
+F 0 "C3" H 5912 4254 50  0000 R CNN
+F 1 "6x2_connector" H 5912 4345 50  0000 R CNN
+F 2 "" H 6250 4300 50  0001 C CNN
+F 3 "" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1x5_connector:1x5_connector C2
+U 1 1 5FEA11BD
+P 6200 900
+F 0 "C2" H 6478 865 50  0000 L CNN
+F 1 "1x5_connector" H 6478 774 50  0000 L CNN
+F 2 "molex:Molex_Microfit_1x5_436500500" H 6200 900 50  0001 C CNN
+F 3 "" H 6200 900 50  0001 C CNN
+	1    6200 900 
+	1    0    0    -1  
+$EndComp
+Text Label 6000 1100 3    50   ~ 0
+SPEED1
+Text Label 6100 1100 3    50   ~ 0
+SPEED2
+Text Label 6200 1100 3    50   ~ 0
+SPEED3
+Text Label 6300 1100 3    50   ~ 0
+SPEED4
+Text Label 6400 1100 3    50   ~ 0
+MGND
+$Comp
+L 1x2_connector:1x2_connector C1
+U 1 1 5FEA16F4
+P 1450 1450
+F 0 "C1" V 1399 1528 50  0000 L CNN
+F 1 "1x2_connector" V 1490 1528 50  0000 L CNN
+F 2 "" H 1750 1250 50  0001 C CNN
+F 3 "" H 1750 1250 50  0001 C CNN
+	1    1450 1450
+	0    1    1    0   
+$EndComp
+Text Label 1250 1400 2    50   ~ 0
+VIN
+Text Label 1250 1500 2    50   ~ 0
+GND
+Text Label 6000 4500 3    50   ~ 0
+TB1
+Text Label 6100 4500 3    50   ~ 0
+TG1
+Text Label 6200 4500 3    50   ~ 0
+TW1
+Text Label 6000 4100 1    50   ~ 0
+TB2
+Text Label 6100 4100 1    50   ~ 0
+TG2
+Text Label 6200 4100 1    50   ~ 0
+TW2
+Text Label 6300 4100 1    50   ~ 0
+TB3
+Text Label 6400 4100 1    50   ~ 0
+TG3
+Text Label 6500 4100 1    50   ~ 0
+TW3
+Text Label 6400 4500 3    50   ~ 0
+TG4
+Text Label 6500 4500 3    50   ~ 0
+TW4
+Text Label 6300 4500 3    50   ~ 0
+TB4
+Text Notes 1100 1150 0    50   ~ 0
+Power INPUT\n
+Text Notes 5950 750  0    50   ~ 0
+Speed Signals\n
+Text Notes 5950 4850 0    50   ~ 0
+Thruster connections\n
+$Comp
+L LED:CQY99 D1
+U 1 1 5FEA1FA2
+P 2250 950
+F 0 "D1" H 2200 733 50  0000 C CNN
+F 1 "LED" H 2200 824 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2250 1125 50  0001 C CNN
+F 3 "" H 2200 950 50  0001 C CNN
+	1    2250 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FEA2178
+P 2600 950
+F 0 "R1" V 2393 950 50  0000 C CNN
+F 1 "R" V 2484 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2530 950 50  0001 C CNN
+F 3 "" H 2600 950 50  0001 C CNN
+	1    2600 950 
+	0    1    1    0   
+$EndComp
+Text Label 2150 950  2    50   ~ 0
+VIN
+Text Label 2750 950  0    50   ~ 0
+GND
+$EndSCHEMATC

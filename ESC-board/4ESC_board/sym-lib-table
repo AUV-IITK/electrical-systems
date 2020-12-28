@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name ESCPINS)(type Legacy)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Component_library/ESCPINS.lib")(options "")(descr "contains ESC symbols"))
+  (lib (name 6x2_connector)(type Legacy)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Component_library/6x2_connector.lib")(options "")(descr ""))
+  (lib (name 1x5_connector)(type Legacy)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Component_library/1x5_connector.lib")(options "")(descr ""))
+  (lib (name 1x2_connector)(type Legacy)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Component_library/1x2_connector.lib")(options "")(descr ""))
+  (lib (name LED)(type Legacy)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Component_library/LED.lib")(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri "D:/AUV/New Electrical design/electrical-systems/ESC-board/Component_library/Device.lib")(options "")(descr ""))
+)
