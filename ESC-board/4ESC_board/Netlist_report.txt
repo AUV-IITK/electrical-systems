@@ -1,0 +1,24 @@
+Info: Checking netlist symbol footprint “C1:/5FEA16F4:molex:molex_supersabre_1x2_172043-0201”.
+
+Info: Checking netlist symbol footprint “C2:/5FEA11BD:molex:Molex_Microfit_1x5_436500500”.
+
+Info: Checking netlist symbol footprint “C3:/5FEA0F57:molex:Molex_microfit_2x6_444281201”.
+
+Info: Checking netlist symbol footprint “D1:/5FEA1FA2:Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder”.
+
+Info: Checking netlist symbol footprint “R1:/5FEA2178:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder”.
+
+Info: Checking netlist symbol footprint “U1:/5FEA0291:ESC:ESC_footprint”.
+
+Info: Checking netlist symbol footprint “U2:/5FEA037F:ESC:ESC_footprint”.
+
+Info: Checking netlist symbol footprint “U3:/5FEA0417:ESC:ESC_footprint”.
+
+Info: Checking netlist symbol footprint “U4:/5FEA04B8:ESC:ESC_footprint”.
+
+Adding new symbol “C1:/5FEA16F4” footprint “molex:molex_supersabre_1x2_172043-0201”.
+
+Changing footprint “C1:/5FEA16F4” pad “2” net name from “” to “/GND”.
+
+Changing footprint “C1:/5FEA16F4” pad “1” net name from “” to “/VIN”.
+
