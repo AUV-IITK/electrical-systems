@@ -118,12 +118,12 @@ $Comp
 L 6x2_connector:6x2_connector C3
 U 1 1 5FEA0F57
 P 6250 4300
-F 0 "C3" H 5912 4254 50  0000 R CNN
+F 0 "C3" H 5912 4254 50  0000 C CNN
 F 1 "6x2_connector" H 5912 4345 50  0000 R CNN
-F 2 "" H 6250 4300 50  0001 C CNN
+F 2 "molex:Molex_microfit_2x6_444281201" H 6250 4300 50  0001 C CNN
 F 3 "" H 6250 4300 50  0001 C CNN
 	1    6250 4300
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L 1x5_connector:1x5_connector C2
@@ -134,7 +134,7 @@ F 1 "1x5_connector" H 6478 774 50  0000 L CNN
 F 2 "molex:Molex_Microfit_1x5_436500500" H 6200 900 50  0001 C CNN
 F 3 "" H 6200 900 50  0001 C CNN
 	1    6200 900 
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Label 6000 1100 3    50   ~ 0
 SPEED1
@@ -152,7 +152,7 @@ U 1 1 5FEA16F4
 P 1450 1450
 F 0 "C1" V 1399 1528 50  0000 L CNN
 F 1 "1x2_connector" V 1490 1528 50  0000 L CNN
-F 2 "" H 1750 1250 50  0001 C CNN
+F 2 "molex:molex_supersabre_1x2_172043-0201" H 1750 1250 50  0001 C CNN
 F 3 "" H 1750 1250 50  0001 C CNN
 	1    1450 1450
 	0    1    1    0   
@@ -167,17 +167,17 @@ Text Label 6100 4500 3    50   ~ 0
 TG1
 Text Label 6200 4500 3    50   ~ 0
 TW1
-Text Label 6000 4100 1    50   ~ 0
+Text Label 6200 4100 1    50   ~ 0
 TB2
 Text Label 6100 4100 1    50   ~ 0
 TG2
-Text Label 6200 4100 1    50   ~ 0
+Text Label 6000 4100 1    50   ~ 0
 TW2
-Text Label 6300 4100 1    50   ~ 0
+Text Label 6500 4100 1    50   ~ 0
 TB3
 Text Label 6400 4100 1    50   ~ 0
 TG3
-Text Label 6500 4100 1    50   ~ 0
+Text Label 6300 4100 1    50   ~ 0
 TW3
 Text Label 6400 4500 3    50   ~ 0
 TG4
