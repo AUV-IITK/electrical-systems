@@ -151,8 +151,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 6200 2550 5900
 Connection ~ 2550 5900
-Text Label 2850 5900 0    50   ~ 0
-POWER
 Text Label 2850 5700 0    50   ~ 0
 MOUT
 Text Label 2850 5600 0    50   ~ 0
@@ -262,7 +260,7 @@ Text Label 5950 5350 0    50   ~ 0
 Text Label 5950 5450 0    50   ~ 0
 3.3V
 Text Label 4400 5650 0    50   ~ 0
-3.3V
+CSB
 Text Label 6100 6250 0    50   ~ 0
 3.3V
 Text Label 5700 6250 0    50   ~ 0
@@ -296,9 +294,9 @@ $EndComp
 Connection ~ 5750 6250
 Wire Wire Line
 	5750 6250 5800 6250
-Text Label 4050 5750 0    50   ~ 0
+Text Label 4500 5750 0    50   ~ 0
 SCL
-Text Label 4050 5950 0    50   ~ 0
+Text Label 4500 5950 0    50   ~ 0
 SDA
 Text Label 3950 5750 0    50   ~ 0
 3.3V
@@ -393,8 +391,6 @@ MOS1
 Text Label 2750 1500 0    50   ~ 0
 MOS1
 Wire Wire Line
-	2750 900  2750 600 
-Wire Wire Line
 	800  3000 1050 3000
 Connection ~ 1050 3000
 Text Label 800  3000 0    50   ~ 0
@@ -403,14 +399,12 @@ Wire Wire Line
 	3950 2900 3750 2900
 Text Label 3750 2900 0    50   ~ 0
 MOS2
-Text Label 2750 600  0    50   ~ 0
-B1
 $Comp
 L Device:R R1
 U 1 1 60A3E08C
 P 1300 4400
 F 0 "R1" V 1507 4400 50  0000 C CNN
-F 1 "1k" V 1416 4400 50  0000 C CNN
+F 1 "2k" V 1416 4400 50  0000 C CNN
 F 2 "" V 1230 4400 50  0001 C CNN
 F 3 "~" H 1300 4400 50  0001 C CNN
 	1    1300 4400
@@ -421,7 +415,7 @@ L Device:R R3
 U 1 1 60A43FFD
 P 1750 4400
 F 0 "R3" V 1543 4400 50  0000 C CNN
-F 1 "5k" V 1634 4400 50  0000 C CNN
+F 1 "10k" V 1634 4400 50  0000 C CNN
 F 2 "" V 1680 4400 50  0001 C CNN
 F 3 "~" H 1750 4400 50  0001 C CNN
 	1    1750 4400
@@ -449,7 +443,7 @@ L Device:R R8
 U 1 1 60A4D1DB
 P 4600 4500
 F 0 "R8" V 4807 4500 50  0000 C CNN
-F 1 "1k" V 4716 4500 50  0000 C CNN
+F 1 "2k" V 4716 4500 50  0000 C CNN
 F 2 "" V 4530 4500 50  0001 C CNN
 F 3 "~" H 4600 4500 50  0001 C CNN
 	1    4600 4500
@@ -460,7 +454,7 @@ L Device:R R9
 U 1 1 60A4D1E2
 P 5050 4500
 F 0 "R9" V 4843 4500 50  0000 C CNN
-F 1 "5k" V 4934 4500 50  0000 C CNN
+F 1 "10k" V 4934 4500 50  0000 C CNN
 F 2 "" V 4980 4500 50  0001 C CNN
 F 3 "~" H 5050 4500 50  0001 C CNN
 	1    5050 4500
@@ -798,12 +792,8 @@ F 3 "" H 9000 1150 50  0001 C CNN
 $EndComp
 Text Label 10400 850  0    50   ~ 0
 5V
-Text Label 7900 850  0    50   ~ 0
-Vr
 Wire Wire Line
 	6450 7200 6650 7200
-Text Label 6650 7200 0    50   ~ 0
-Vr
 Connection ~ 3900 3000
 Text Label 3500 3000 0    50   ~ 0
 RV2
@@ -842,7 +832,7 @@ L Connector:Conn_01x02_Male J1
 U 1 1 60AB8006
 P 1250 1100
 F 0 "J1" H 1356 1278 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1356 1187 50  0000 C CNN
+F 1 "B1" H 1356 1187 50  0000 C CNN
 F 2 "" H 1250 1100 50  0001 C CNN
 F 3 "~" H 1250 1100 50  0001 C CNN
 	1    1250 1100
@@ -852,46 +842,31 @@ Wire Wire Line
 	1450 1100 2100 1100
 Wire Wire Line
 	2100 1100 2100 600 
-Wire Wire Line
-	2100 600  2300 600 
-Wire Wire Line
-	2300 600  2300 900 
-Connection ~ 2300 600 
-Wire Wire Line
-	2300 600  2750 600 
 $Comp
 L Device:R R4
 U 1 1 60AFE6F9
-P 2300 1050
-F 0 "R4" H 2370 1096 50  0000 L CNN
-F 1 "R" H 2370 1005 50  0000 L CNN
-F 2 "" V 2230 1050 50  0001 C CNN
-F 3 "~" H 2300 1050 50  0001 C CNN
-	1    2300 1050
+P 2300 1200
+F 0 "R4" H 2370 1246 50  0000 L CNN
+F 1 "10k" H 2370 1155 50  0000 L CNN
+F 2 "" V 2230 1200 50  0001 C CNN
+F 3 "~" H 2300 1200 50  0001 C CNN
+	1    2300 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 60AFE790
-P 2300 1350
-F 0 "R5" H 2370 1396 50  0000 L CNN
-F 1 "R" H 2370 1305 50  0000 L CNN
-F 2 "" V 2230 1350 50  0001 C CNN
-F 3 "~" H 2300 1350 50  0001 C CNN
-	1    2300 1350
+P 2300 1500
+F 0 "R5" H 2370 1546 50  0000 L CNN
+F 1 "20k" H 2370 1455 50  0000 L CNN
+F 2 "" V 2230 1500 50  0001 C CNN
+F 3 "~" H 2300 1500 50  0001 C CNN
+	1    2300 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 1200 2150 1500
-Wire Wire Line
-	2150 1500 2300 1500
-Wire Wire Line
-	2300 1200 2500 1200
-Wire Wire Line
-	2500 1200 2500 1300
-Wire Wire Line
-	2500 1300 2450 1300
-Connection ~ 2300 1200
+	2300 1350 2450 1350
+Connection ~ 2300 1350
 Wire Wire Line
 	1500 4400 1500 4550
 Connection ~ 1500 4400
@@ -924,88 +899,8 @@ Text Label 10200 6050 0    50   ~ 0
 CTRL2
 Text Label 4800 4500 0    50   ~ 0
 MIN4
-$Comp
-L SamacSys_Parts:IRFZ34PBF Q?
-U 1 1 60ABB154
-P 5150 1350
-F 0 "Q?" H 5579 1496 50  0000 L CNN
-F 1 "IRFZ34PBF" H 5579 1405 50  0000 L CNN
-F 2 "TO254P465X1024X2050-3P" H 5600 1300 50  0001 L CNN
-F 3 "https://www.vishay.com/docs/91290/91290.pdf" H 5600 1200 50  0001 L CNN
-F 4 "Trans MOSFET N-CH 60V 30A" H 5600 1100 50  0001 L CNN "Description"
-F 5 "4.65" H 5600 1000 50  0001 L CNN "Height"
-F 6 "844-IRFZ34PBF" H 5600 900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRFZ34PBF?qs=I1ZA2VTqfvRg%2FcYzigS1jg%3D%3D" H 5600 800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Vishay" H 5600 700 50  0001 L CNN "Manufacturer_Name"
-F 9 "IRFZ34PBF" H 5600 600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 1350
-	1    0    0    -1  
-$EndComp
-Text Label 5450 1550 0    50   ~ 0
-MOS2
-Wire Wire Line
-	5450 950  5450 650 
-Text Label 5450 650  0    50   ~ 0
-B1
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 60ABB15E
-P 3950 1150
-F 0 "J?" H 4056 1328 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4056 1237 50  0000 C CNN
-F 2 "" H 3950 1150 50  0001 C CNN
-F 3 "~" H 3950 1150 50  0001 C CNN
-	1    3950 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 1150 4800 1150
-Wire Wire Line
-	4800 1150 4800 650 
-Wire Wire Line
-	4800 650  5000 650 
-Wire Wire Line
-	5000 650  5000 950 
-Connection ~ 5000 650 
-Wire Wire Line
-	5000 650  5450 650 
-$Comp
-L Device:R R?
-U 1 1 60ABB176
-P 5000 1100
-F 0 "R?" H 5070 1146 50  0000 L CNN
-F 1 "R" H 5070 1055 50  0000 L CNN
-F 2 "" V 4930 1100 50  0001 C CNN
-F 3 "~" H 5000 1100 50  0001 C CNN
-	1    5000 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 60ABB17D
-P 5000 1400
-F 0 "R?" H 5070 1446 50  0000 L CNN
-F 1 "R" H 5070 1355 50  0000 L CNN
-F 2 "" V 4930 1400 50  0001 C CNN
-F 3 "~" H 5000 1400 50  0001 C CNN
-	1    5000 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 1250 4850 1550
-Wire Wire Line
-	4850 1550 5000 1550
-Wire Wire Line
-	5000 1250 5200 1250
-Wire Wire Line
-	5200 1250 5200 1350
-Wire Wire Line
-	5200 1350 5150 1350
-Connection ~ 5000 1250
 Wire Wire Line
 	1450 1200 2150 1200
-Wire Wire Line
-	4150 1250 4850 1250
 Text Label 3500 3200 0    50   ~ 0
 B1B
 Text Label 6450 7000 0    50   ~ 0
@@ -1123,10 +1018,10 @@ LCD_CS
 Text Label 1800 7450 0    50   ~ 0
 TP_CS
 $Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+L Connector_Generic:Conn_02x07_Counter_Clockwise J2
 U 1 1 60CE0939
 P 1250 7150
-F 0 "J?" H 1300 7667 50  0000 C CNN
+F 0 "J2" H 1300 7667 50  0000 C CNN
 F 1 "Conn_02x07_Counter_Clockwise" H 1300 7576 50  0000 C CNN
 F 2 "" H 1250 7150 50  0001 C CNN
 F 3 "~" H 1250 7150 50  0001 C CNN
@@ -1170,4 +1065,361 @@ Wire Notes Line
 	10900 1750 10900 3800
 Wire Notes Line
 	7450 3800 10900 3800
+Wire Wire Line
+	5800 7200 5950 7200
+Text Label 2850 5900 0    50   ~ 0
+5V
+Text Label 5950 5650 0    50   ~ 0
+INT
+Wire Wire Line
+	5950 5650 5700 5650
+Text Label 8250 6050 0    50   ~ 0
+INT
+Wire Wire Line
+	8250 6050 8550 6050
+Wire Wire Line
+	6450 7300 6650 7300
+$Comp
+L Device:R R2
+U 1 1 60B4ACF3
+P 2750 750
+F 0 "R2" H 2820 796 50  0000 L CNN
+F 1 "150" H 2820 705 50  0000 L CNN
+F 2 "" V 2680 750 50  0001 C CNN
+F 3 "~" H 2750 750 50  0001 C CNN
+	1    2750 750 
+	1    0    0    -1  
+$EndComp
+Text Label 6550 7300 0    50   ~ 0
+GND
+Text Label 6500 7200 0    50   ~ 0
+Buck_Out
+Text Label 5850 7300 0    50   ~ 0
+GND
+Text Label 5850 7200 0    50   ~ 0
+BOOST_OUT
+Text Label 7900 850  0    50   ~ 0
+Buck_Out
+Text Label 1850 1100 0    50   ~ 0
+Battery1
+Wire Wire Line
+	5800 7300 5950 7300
+Wire Wire Line
+	9250 6350 9250 6500
+$Comp
+L power:GND #PWR0106
+U 1 1 60BF937B
+P 9250 6500
+F 0 "#PWR0106" H 9250 6250 50  0001 C CNN
+F 1 "GND" H 9255 6327 50  0000 C CNN
+F 2 "" H 9250 6500 50  0001 C CNN
+F 3 "" H 9250 6500 50  0001 C CNN
+	1    9250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW1
+U 1 1 60AD44C7
+P 2300 800
+F 0 "SW1" H 2300 1022 50  0000 C CNN
+F 1 "SW_Reed" H 2300 931 50  0000 C CNN
+F 2 "" H 2300 800 50  0001 C CNN
+F 3 "" H 2300 800 50  0001 C CNN
+	1    2300 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 600  2300 600 
+Wire Wire Line
+	2450 1300 2450 1350
+Connection ~ 2300 600 
+Wire Wire Line
+	2300 600  2750 600 
+Wire Wire Line
+	2300 1000 2300 1050
+Wire Wire Line
+	2300 1650 2150 1650
+Wire Wire Line
+	2150 1650 2150 1200
+$Comp
+L SamacSys_Parts:IRFZ34PBF Q3
+U 1 1 60B4DB43
+P 5050 1300
+F 0 "Q3" H 5479 1446 50  0000 L CNN
+F 1 "IRFZ34PBF" H 5479 1355 50  0000 L CNN
+F 2 "TO254P465X1024X2050-3P" H 5500 1250 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/91290/91290.pdf" H 5500 1150 50  0001 L CNN
+F 4 "Trans MOSFET N-CH 60V 30A" H 5500 1050 50  0001 L CNN "Description"
+F 5 "4.65" H 5500 950 50  0001 L CNN "Height"
+F 6 "844-IRFZ34PBF" H 5500 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/IRFZ34PBF?qs=I1ZA2VTqfvRg%2FcYzigS1jg%3D%3D" H 5500 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 5500 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "IRFZ34PBF" H 5500 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5050 1300
+	1    0    0    -1  
+$EndComp
+Text Label 5350 1500 0    50   ~ 0
+MOS2
+$Comp
+L Connector:Conn_01x02_Male J13
+U 1 1 60B4DB4B
+P 3850 1100
+F 0 "J13" H 3956 1278 50  0000 C CNN
+F 1 "B2" H 3956 1187 50  0000 C CNN
+F 2 "" H 3850 1100 50  0001 C CNN
+F 3 "~" H 3850 1100 50  0001 C CNN
+	1    3850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1100 4700 1100
+Wire Wire Line
+	4700 1100 4700 600 
+$Comp
+L Device:R R14
+U 1 1 60B4DB54
+P 4900 1200
+F 0 "R14" H 4970 1246 50  0000 L CNN
+F 1 "10k" H 4970 1155 50  0000 L CNN
+F 2 "" V 4830 1200 50  0001 C CNN
+F 3 "~" H 4900 1200 50  0001 C CNN
+	1    4900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 60B4DB5B
+P 4900 1500
+F 0 "R15" H 4970 1546 50  0000 L CNN
+F 1 "20k" H 4970 1455 50  0000 L CNN
+F 2 "" V 4830 1500 50  0001 C CNN
+F 3 "~" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1350 5050 1350
+Connection ~ 4900 1350
+Wire Wire Line
+	4050 1200 4750 1200
+$Comp
+L Device:R R16
+U 1 1 60B4DB65
+P 5350 750
+F 0 "R16" H 5420 796 50  0000 L CNN
+F 1 "150" H 5420 705 50  0000 L CNN
+F 2 "" V 5280 750 50  0001 C CNN
+F 3 "~" H 5350 750 50  0001 C CNN
+	1    5350 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW2
+U 1 1 60B4DB6D
+P 4900 800
+F 0 "SW2" H 4900 1022 50  0000 C CNN
+F 1 "SW_Reed" H 4900 931 50  0000 C CNN
+F 2 "" H 4900 800 50  0001 C CNN
+F 3 "" H 4900 800 50  0001 C CNN
+	1    4900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 1300 5050 1350
+Wire Wire Line
+	4900 1000 4900 1050
+Wire Wire Line
+	4900 1650 4750 1650
+Wire Wire Line
+	4750 1650 4750 1200
+Wire Wire Line
+	4700 600  4900 600 
+Connection ~ 4900 600 
+Wire Wire Line
+	4900 600  5350 600 
+$Comp
+L Connector:Conn_01x02_Male J11
+U 1 1 60B6C722
+P 3300 6900
+F 0 "J11" H 3406 7078 50  0000 C CNN
+F 1 "Battery_out" H 3406 6987 50  0000 C CNN
+F 2 "" H 3300 6900 50  0001 C CNN
+F 3 "~" H 3300 6900 50  0001 C CNN
+	1    3300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 60B6C7FA
+P 4050 6900
+F 0 "J14" H 4156 7078 50  0000 C CNN
+F 1 "Boost_out" H 4156 6987 50  0000 C CNN
+F 2 "" H 4050 6900 50  0001 C CNN
+F 3 "~" H 4050 6900 50  0001 C CNN
+	1    4050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J12
+U 1 1 60B768CC
+P 3650 7350
+F 0 "J12" H 3756 7528 50  0000 C CNN
+F 1 "Buck_out" H 3756 7437 50  0000 C CNN
+F 2 "" H 3650 7350 50  0001 C CNN
+F 3 "~" H 3650 7350 50  0001 C CNN
+	1    3650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 60B8099F
+P 3000 7350
+F 0 "J5" H 3106 7528 50  0000 C CNN
+F 1 "Buck_out" H 3106 7437 50  0000 C CNN
+F 2 "" H 3000 7350 50  0001 C CNN
+F 3 "~" H 3000 7350 50  0001 C CNN
+	1    3000 7350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2750 7600 2750 6650
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 60BB32BF
+P 4300 7350
+F 0 "J15" H 4406 7528 50  0000 C CNN
+F 1 "Buck_out" H 4406 7437 50  0000 C CNN
+F 2 "" H 4300 7350 50  0001 C CNN
+F 3 "~" H 4300 7350 50  0001 C CNN
+	1    4300 7350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4700 6650 4700 7600
+Wire Notes Line
+	2750 6650 4700 6650
+Wire Notes Line
+	2750 7600 4700 7600
+Text Label 3200 7350 0    50   ~ 0
+Buck_Out
+Text Label 3850 7350 0    50   ~ 0
+Buck_Out
+Text Label 4500 7350 0    50   ~ 0
+Buck_Out
+Text Label 4250 6900 0    50   ~ 0
+BOOST_OUT
+Text Label 3500 6900 0    50   ~ 0
+Battery1
+Text Label 3500 7000 0    50   ~ 0
+GND
+Text Label 4250 7000 0    50   ~ 0
+GND
+Text Label 4500 7450 0    50   ~ 0
+GND
+Text Label 3850 7450 0    50   ~ 0
+GND
+Text Label 3200 7450 0    50   ~ 0
+GND
+$Comp
+L Device:LED D4
+U 1 1 60C569AD
+P 6800 3350
+F 0 "D4" H 6792 3095 50  0000 C CNN
+F 1 "LED" H 6792 3186 50  0000 C CNN
+F 2 "" H 6800 3350 50  0001 C CNN
+F 3 "~" H 6800 3350 50  0001 C CNN
+	1    6800 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60C60B9B
+P 6800 2800
+F 0 "D3" H 6792 2545 50  0000 C CNN
+F 1 "LED" H 6792 2636 50  0000 C CNN
+F 2 "" H 6800 2800 50  0001 C CNN
+F 3 "~" H 6800 2800 50  0001 C CNN
+	1    6800 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60C6AD7A
+P 6800 2250
+F 0 "D2" H 6792 1995 50  0000 C CNN
+F 1 "LED" H 6792 2086 50  0000 C CNN
+F 2 "" H 6800 2250 50  0001 C CNN
+F 3 "~" H 6800 2250 50  0001 C CNN
+	1    6800 2250
+	-1   0    0    1   
+$EndComp
+Text Label 6950 3350 0    50   ~ 0
+GND
+Text Label 6950 2800 0    50   ~ 0
+GND
+Text Label 6950 2250 0    50   ~ 0
+GND
+$Comp
+L Device:R R17
+U 1 1 60C9DD1C
+P 6650 2400
+F 0 "R17" H 6720 2446 50  0000 L CNN
+F 1 ".5k" H 6720 2355 50  0000 L CNN
+F 2 "" V 6580 2400 50  0001 C CNN
+F 3 "~" H 6650 2400 50  0001 C CNN
+	1    6650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 60C9DDF1
+P 6650 2950
+F 0 "R18" H 6720 2996 50  0000 L CNN
+F 1 ".5k" H 6720 2905 50  0000 L CNN
+F 2 "" V 6580 2950 50  0001 C CNN
+F 3 "~" H 6650 2950 50  0001 C CNN
+	1    6650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 60CA7FD7
+P 6650 3500
+F 0 "R19" H 6720 3546 50  0000 L CNN
+F 1 ".5k" H 6720 3455 50  0000 L CNN
+F 2 "" V 6580 3500 50  0001 C CNN
+F 3 "~" H 6650 3500 50  0001 C CNN
+	1    6650 3500
+	1    0    0    -1  
+$EndComp
+Text Label 6500 2650 0    50   ~ 0
+SCL
+Text Label 6500 3200 0    50   ~ 0
+SDA
+Text Label 6400 3750 0    50   ~ 0
+MOUT
+Wire Wire Line
+	6400 3750 6650 3750
+Wire Wire Line
+	6650 3750 6650 3650
+Wire Wire Line
+	6500 3200 6650 3200
+Wire Wire Line
+	6650 3200 6650 3100
+Wire Wire Line
+	6500 2650 6650 2650
+Wire Wire Line
+	6650 2650 6650 2550
+Wire Notes Line
+	6300 1900 7250 1900
+Wire Notes Line
+	7250 1900 7250 3950
+Wire Notes Line
+	7250 3950 6300 3950
+Wire Notes Line
+	6300 3950 6300 1900
+Wire Wire Line
+	9950 5350 10200 5350
+Text Label 10200 5350 0    50   ~ 0
+CSB
 $EndSCHEMATC
