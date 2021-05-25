@@ -260,7 +260,7 @@ Text Label 5950 5350 0    50   ~ 0
 Text Label 5950 5450 0    50   ~ 0
 3.3V
 Text Label 4400 5650 0    50   ~ 0
-3.3V
+CSB
 Text Label 6100 6250 0    50   ~ 0
 3.3V
 Text Label 5700 6250 0    50   ~ 0
@@ -1418,4 +1418,8 @@ Wire Notes Line
 	7250 3950 6300 3950
 Wire Notes Line
 	6300 3950 6300 1900
+Wire Wire Line
+	9950 5350 10200 5350
+Text Label 10200 5350 0    50   ~ 0
+CSB
 $EndSCHEMATC
