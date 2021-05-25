@@ -1410,4 +1410,12 @@ Wire Wire Line
 	6500 2650 6650 2650
 Wire Wire Line
 	6650 2650 6650 2550
+Wire Notes Line
+	6300 1900 7250 1900
+Wire Notes Line
+	7250 1900 7250 3950
+Wire Notes Line
+	7250 3950 6300 3950
+Wire Notes Line
+	6300 3950 6300 1900
 $EndSCHEMATC
