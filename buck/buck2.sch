@@ -1,0 +1,639 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C Cvcc1
+U 1 1 60AACC27
+P 2750 2100
+F 0 "Cvcc1" H 2635 2054 50  0001 R CNN
+F 1 "1uF,1mOhm" H 2635 2145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2788 1950 50  0001 C CNN
+F 3 "~" H 2750 2100 50  0001 C CNN
+	1    2750 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C Ccomp1
+U 1 1 60AAD38A
+P 3500 3650
+F 0 "Ccomp1" H 3385 3604 50  0000 R CNN
+F 1 "18nF,0Ohm" H 3385 3695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric" H 3538 3500 50  0001 C CNN
+F 3 "~" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C Cbst1
+U 1 1 60AAD6A3
+P 5950 4900
+F 0 "Cbst1" H 5835 4854 50  0000 R CNN
+F 1 "100nF,1mOhm" H 5835 4945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5988 4750 50  0001 C CNN
+F 3 "~" H 5950 4900 50  0001 C CNN
+	1    5950 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R Rcomp1
+U 1 1 60AAE3A2
+P 3500 3950
+F 0 "Rcomp1" H 3570 3996 50  0000 L CNN
+F 1 "2.43kOhm" H 3570 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 3950 50  0001 C CNN
+F 3 "~" H 3500 3950 50  0001 C CNN
+	1    3500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rpgood1
+U 1 1 60AAEF86
+P 6100 2850
+F 0 "Rpgood1" H 6170 2896 50  0000 L CNN
+F 1 "100kOhm" H 6170 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 2850 50  0001 C CNN
+F 3 "~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rs1
+U 1 1 60AAF2C6
+P 6150 3650
+F 0 "Rs1" H 6220 3696 50  0000 L CNN
+F 1 "1.87kOhm" H 6220 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 3650 50  0001 C CNN
+F 3 "~" H 6150 3650 50  0001 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rfbb1
+U 1 1 60AAF7FE
+P 9650 4500
+F 0 "Rfbb1" H 9720 4546 50  0000 L CNN
+F 1 "715Ohm" H 9720 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9580 4500 50  0001 C CNN
+F 3 "~" H 9650 4500 50  0001 C CNN
+	1    9650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rfbt1
+U 1 1 60AAFF8A
+P 9650 3850
+F 0 "Rfbt1" H 9720 3896 50  0000 L CNN
+F 1 "10kOhm" H 9720 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9580 3850 50  0001 C CNN
+F 3 "~" H 9650 3850 50  0001 C CNN
+	1    9650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L EMK212BJ225KG-T:EMK212BJ225KG-T Cbyp1
+U 1 1 60AB5D27
+P 6750 3300
+F 0 "Cbyp1" V 6954 3428 50  0000 L CNN
+F 1 "2.2uF,1mOhm" V 7045 3428 50  0000 L CNN
+F 2 "buck2_footprint_custom_library:CAPC2012X135N" H 7100 3350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/EMK212BJ225KG-T.pdf" H 7100 3250 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 16V X5R +/-10% 0805 Gen Purp" H 7100 3150 50  0001 L CNN "Description"
+F 5 "1.35" H 7100 3050 50  0001 L CNN "Height"
+F 6 "963-EMK212BJ225KG-T" H 7100 2950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=963-EMK212BJ225KG-T" H 7100 2850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 7100 2750 50  0001 L CNN "Manufacturer_Name"
+F 9 "EMK212BJ225KG-T" H 7100 2650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L TMK325B7226KMHP:TMK325B7226KMHP Cout1
+U 1 1 60AB6532
+P 10550 3900
+F 0 "Cout1" H 10800 4165 50  0000 C CNN
+F 1 "22uF,1mOhm" H 10800 4074 50  0000 C CNN
+F 2 "buck2_footprint_custom_library:CAPC3225X270N" H 10900 3950 50  0001 L CNN
+F 3 "https://www.mouser.mx/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 10900 3850 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200" H 10900 3750 50  0001 L CNN "Description"
+F 5 "2.7" H 10900 3650 50  0001 L CNN "Height"
+F 6 "963-TMK325B7226KMHP" H 10900 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/TMK325B7226KMHP?qs=sBf%2Fb4nBSlcFBm9KJOCQlw%3D%3D" H 10900 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 10900 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "TMK325B7226KMHP" H 10900 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10550 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TMK325B7226KMHP:TMK325B7226KMHP Cout2
+U 1 1 60AB6E9A
+P 10250 4350
+F 0 "Cout2" H 10500 4615 50  0000 C CNN
+F 1 "22uF,1mOhm" H 10500 4524 50  0000 C CNN
+F 2 "buck2_footprint_custom_library:CAPC3225X270N" H 10600 4400 50  0001 L CNN
+F 3 "https://www.mouser.mx/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" H 10600 4300 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200" H 10600 4200 50  0001 L CNN "Description"
+F 5 "2.7" H 10600 4100 50  0001 L CNN "Height"
+F 6 "963-TMK325B7226KMHP" H 10600 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/TMK325B7226KMHP?qs=sBf%2Fb4nBSlcFBm9KJOCQlw%3D%3D" H 10600 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TAIYO YUDEN" H 10600 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "TMK325B7226KMHP" H 10600 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10250 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CGA4C2C0G1H472J060AA:CGA4C2C0G1H472J060AA Ccomp3
+U 1 1 60AB7C8D
+P 9000 3700
+F 0 "Ccomp3" V 9204 3828 50  0000 L CNN
+F 1 "4.7nF,0Ohm" V 9295 3828 50  0000 L CNN
+F 2 "buck2_footprint_custom_library:CAPC2012X75N" H 9350 3750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CGA4C2C0G1H472J060AA.pdf" H 9350 3650 50  0001 L CNN
+F 4 "" H 9350 3550 50  0001 L CNN "Description"
+F 5 "0.75" H 9350 3450 50  0001 L CNN "Height"
+F 6 "810-CGA4C2C0G1H472J" H 9350 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4C2C0G1H472J" H 9350 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TDK" H 9350 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "CGA4C2C0G1H472J060AA" H 9350 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R Rcomp2
+U 1 1 60AB93E4
+P 9000 3550
+F 0 "Rcomp2" H 9070 3596 50  0000 L CNN
+F 1 "191Ohm" H 9070 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8930 3550 50  0001 C CNN
+F 3 "~" H 9000 3550 50  0001 C CNN
+	1    9000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2350 5100 2350
+Connection ~ 5100 2350
+Wire Wire Line
+	5100 2350 5200 2350
+$Comp
+L power:GND #PWR0101
+U 1 1 60ABA95B
+P 5050 4350
+F 0 "#PWR0101" H 5050 4100 50  0001 C CNN
+F 1 "GND" H 5050 4200 50  0000 C CNN
+F 2 "" H 5050 4350 50  0001 C CNN
+F 3 "" H 5050 4350 50  0001 C CNN
+	1    5050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60ABD99C
+P 1450 2150
+F 0 "#PWR0102" H 1450 1900 50  0001 C CNN
+F 1 "GND" H 1450 2000 50  0000 C CNN
+F 2 "" H 1450 2150 50  0001 C CNN
+F 3 "" H 1450 2150 50  0001 C CNN
+	1    1450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1450 2750 1450
+Wire Wire Line
+	2750 1950 2750 1750
+Connection ~ 2750 1450
+Wire Wire Line
+	2750 1450 5500 1450
+Wire Wire Line
+	2750 1750 4400 1750
+Connection ~ 2750 1750
+Wire Wire Line
+	2750 1750 2750 1450
+Wire Wire Line
+	2750 2250 1700 2250
+Wire Wire Line
+	1700 2250 1700 1950
+Wire Wire Line
+	4400 3250 4250 3250
+Wire Wire Line
+	4250 3250 4250 1950
+Wire Wire Line
+	4250 1950 3750 1950
+Wire Wire Line
+	3500 3500 3500 3450
+Wire Wire Line
+	3500 3450 4400 3450
+Wire Wire Line
+	2900 3450 3500 3450
+Connection ~ 3500 3450
+Wire Wire Line
+	2900 4100 3500 4100
+Wire Wire Line
+	3500 4100 4400 4100
+Wire Wire Line
+	4400 4100 4400 3550
+Connection ~ 3500 4100
+Wire Wire Line
+	5800 3250 6150 3250
+Wire Wire Line
+	6150 3250 6150 3500
+$Comp
+L power:GND #PWR0103
+U 1 1 60AC9BEA
+P 6150 3800
+F 0 "#PWR0103" H 6150 3550 50  0001 C CNN
+F 1 "GND" H 6150 3650 50  0000 C CNN
+F 2 "" H 6150 3800 50  0001 C CNN
+F 3 "" H 6150 3800 50  0001 C CNN
+	1    6150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3250 6350 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	4400 3350 3950 3350
+Wire Wire Line
+	3950 3350 3950 2250
+Wire Wire Line
+	6100 2250 6100 2700
+Wire Wire Line
+	5800 3150 6100 3150
+Wire Wire Line
+	6100 3150 6100 3000
+Wire Wire Line
+	6100 3150 6750 3150
+Wire Wire Line
+	6750 3150 6750 3300
+Connection ~ 6100 3150
+$Comp
+L power:GND #PWR0104
+U 1 1 60ACF6DB
+P 6750 3800
+F 0 "#PWR0104" H 6750 3550 50  0001 C CNN
+F 1 "GND" H 6750 3650 50  0000 C CNN
+F 2 "" H 6750 3800 50  0001 C CNN
+F 3 "" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3250 6350 4100
+Wire Wire Line
+	6350 4100 7200 4100
+Wire Wire Line
+	5000 4350 5050 4350
+Connection ~ 5050 4350
+Wire Wire Line
+	5050 4350 5100 4350
+$Comp
+L power:GND #PWR0105
+U 1 1 60ADB8B2
+P 5100 2100
+F 0 "#PWR0105" H 5100 1850 50  0001 C CNN
+F 1 "GND" H 5100 1950 50  0000 C CNN
+F 2 "" H 5100 2100 50  0001 C CNN
+F 3 "" H 5100 2100 50  0001 C CNN
+	1    5100 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CSD17304Q3:CSD17304Q3 M1
+U 1 1 60AE00A4
+P 6300 2000
+F 0 "M1" V 6846 2128 50  0001 L CNN
+F 1 "30V,56Amps" V 6755 2128 50  0000 L CNN
+F 2 "buck2_footprint_custom_library:DQG_VSON-CLIP" H 7150 2100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/csd17304q3" H 7150 2000 50  0001 L CNN
+F 4 "30V, N ch NexFET MOSFET, single SON3x3, 8.8mOhm" H 7150 1900 50  0001 L CNN "Description"
+F 5 "" H 7150 1800 50  0001 L CNN "Height"
+F 6 "595-CSD17304Q3" H 7150 1700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17304Q3?qs=BmtUOLWBNQpZvkQf4iFFvQ%3D%3D" H 7150 1600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7150 1500 50  0001 L CNN "Manufacturer_Name"
+F 9 "CSD17304Q3" H 7150 1400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6300 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L CSD17577Q3A:CSD17577Q3A M2
+U 1 1 60AE1043
+P 7500 4100
+F 0 "M2" V 7954 4228 50  0001 L CNN
+F 1 "30V,35Amps" V 8045 4228 50  0000 L CNN
+F 2 "buck2_footprint_custom_library:Q3A" H 8350 4200 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/csd17577q3a" H 8350 4100 50  0001 L CNN
+F 4 "30V, N ch NexFET MOSFET, single SON3x3, 6.4mOhm" H 8350 4000 50  0001 L CNN "Description"
+F 5 "" H 8350 3900 50  0001 L CNN "Height"
+F 6 "595-CSD17577Q3A" H 8350 3800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17577Q3A?qs=m%2F7bTylgptdTq6Yorh0Ysg%3D%3D" H 8350 3700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 8350 3600 50  0001 L CNN "Manufacturer_Name"
+F 9 "CSD17577Q3A" H 8350 3500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7500 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1450 5500 750 
+Wire Wire Line
+	5500 750  6000 750 
+Wire Wire Line
+	6300 750  6300 1000
+Wire Wire Line
+	6200 1000 6200 750 
+Connection ~ 6200 750 
+Wire Wire Line
+	6200 750  6300 750 
+Wire Wire Line
+	6100 1000 6100 750 
+Connection ~ 6100 750 
+Wire Wire Line
+	6100 750  6200 750 
+Wire Wire Line
+	6000 1000 6000 750 
+Connection ~ 6000 750 
+Wire Wire Line
+	6000 750  6100 750 
+Wire Wire Line
+	5800 3450 6000 3450
+Wire Wire Line
+	6000 3450 6000 2000
+Wire Wire Line
+	5800 3350 5950 3350
+Wire Wire Line
+	5950 3350 5950 4700
+Wire Wire Line
+	5100 2350 5100 2100
+Wire Wire Line
+	3950 2250 6100 2250
+Wire Wire Line
+	4400 1750 4400 3150
+Wire Wire Line
+	5800 3550 5800 4700
+$Comp
+L TPS40303DRCR:TPS40303DRCR U1
+U 1 1 60AA79C7
+P 4400 3150
+F 0 "U1" H 5050 2950 50  0000 C CNN
+F 1 "TPS40303DRCR" H 5100 2650 50  0000 C CNN
+F 2 "buck2_footprint_custom_library:TPS40303DRCR" H 5650 3750 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps40303.pdf?ts=1621506755531" H 5650 3650 50  0001 L CNN
+F 4 "Switching Controllers 3-20V Wide Input Sync Buck Controller" H 5650 3550 50  0001 L CNN "Description"
+F 5 "1" H 5650 3450 50  0001 L CNN "Height"
+F 6 "" H 5650 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5650 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 5650 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "TPS40303DRCR" H 5650 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4700 5300 4700
+Wire Wire Line
+	5300 4700 5300 5150
+Wire Wire Line
+	5300 5150 5950 5150
+Wire Wire Line
+	5950 5150 5950 5050
+Wire Wire Line
+	7300 4100 7400 4100
+Connection ~ 7400 4100
+Wire Wire Line
+	7400 4100 7500 4100
+$Comp
+L power:GND #PWR0106
+U 1 1 60AF71AE
+P 7400 4100
+F 0 "#PWR0106" H 7400 3850 50  0001 C CNN
+F 1 "GND" H 7400 3950 50  0000 C CNN
+F 2 "" H 7400 4100 50  0001 C CNN
+F 3 "" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 5100 7200 5100
+Connection ~ 7200 5100
+Wire Wire Line
+	7200 5100 7300 5100
+Connection ~ 7300 5100
+Wire Wire Line
+	7300 5100 7400 5100
+Connection ~ 7400 5100
+Wire Wire Line
+	7400 5100 7500 5100
+Wire Wire Line
+	6100 2000 6200 2000
+Connection ~ 6200 2000
+Wire Wire Line
+	6200 2000 6300 2000
+Wire Wire Line
+	8200 5100 7500 5100
+Connection ~ 6300 2000
+Wire Wire Line
+	6300 2000 8200 2000
+Connection ~ 7500 5100
+Text GLabel 3500 4100 3    50   Input ~ 0
+FB-1
+Text GLabel 9000 4450 3    50   Input ~ 0
+FB-1
+Wire Wire Line
+	9000 3400 9200 3400
+Wire Wire Line
+	9650 3400 9650 3700
+Wire Wire Line
+	9650 3400 10250 3400
+Connection ~ 9650 3400
+Wire Wire Line
+	10250 3850 10250 3400
+Connection ~ 10250 3400
+Wire Wire Line
+	10250 3400 10550 3400
+Wire Wire Line
+	10250 4650 9650 4650
+Wire Wire Line
+	10250 4350 10250 4650
+Wire Wire Line
+	10250 4650 10550 4650
+Wire Wire Line
+	10550 4650 10550 3900
+Connection ~ 10250 4650
+Wire Wire Line
+	10550 3400 10750 3400
+Connection ~ 10550 3400
+Wire Wire Line
+	10550 4650 10750 4650
+Connection ~ 10550 4650
+$Comp
+L power:GND #PWR0107
+U 1 1 60B11681
+P 10250 4650
+F 0 "#PWR0107" H 10250 4400 50  0001 C CNN
+F 1 "GND" H 10250 4500 50  0000 C CNN
+F 2 "" H 10250 4650 50  0001 C CNN
+F 3 "" H 10250 4650 50  0001 C CNN
+	1    10250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021-05-23_18-31-57:436500400 J1
+U 1 1 60B181C9
+P 4150 6150
+F 0 "J1" H 4678 6053 60  0001 L CNN
+F 1 "436500400" H 4678 5947 60  0000 L CNN
+F 2 "buck2_footprint_custom_library:436500400" H 4550 5890 60  0001 C CNN
+F 3 "" H 4150 6150 60  0001 C CNN
+	1    4150 6150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1050 1650 0    50   Input ~ 0
+Vin1
+Text GLabel 4150 6450 2    50   Input ~ 0
+Vin1
+Text GLabel 1050 1950 0    50   Input ~ 0
+Vin2
+Text GLabel 4150 6250 2    50   Input ~ 0
+Vin2
+Text GLabel 10750 3400 2    50   Input ~ 0
+Vout1
+Text GLabel 4150 6150 2    50   Input ~ 0
+Vout1
+Text GLabel 10750 4650 2    50   Input ~ 0
+Vout2
+Text GLabel 4150 6350 2    50   Input ~ 0
+Vout2
+Wire Wire Line
+	9650 4000 9650 4200
+Wire Wire Line
+	9000 4200 9650 4200
+Connection ~ 9650 4200
+Wire Wire Line
+	9650 4200 9650 4350
+Wire Wire Line
+	9000 4450 9000 4200
+Connection ~ 9000 4200
+Wire Wire Line
+	1050 1650 1350 1650
+Wire Wire Line
+	1050 1950 1350 1950
+$Comp
+L Device:C Cin2
+U 1 1 60B26477
+P 1700 1800
+F 0 "Cin2" H 1815 1846 50  0001 L CNN
+F 1 "10uF,1mOhm" H 1815 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1738 1650 50  0001 C CNN
+F 3 "~" H 1700 1800 50  0001 C CNN
+	1    1700 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 1650
+Connection ~ 1350 1950
+Connection ~ 1700 1950
+$Comp
+L Device:C Cin1
+U 1 1 60B28572
+P 1350 1800
+F 0 "Cin1" H 1465 1846 50  0000 L CNN
+F 1 "10uF,1mOhm" H 1465 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1388 1650 50  0001 C CNN
+F 3 "~" H 1350 1800 50  0001 C CNN
+	1    1350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1650 1450 1650
+Wire Wire Line
+	1350 1950 1450 1950
+Wire Wire Line
+	1450 1450 1450 1650
+Connection ~ 1450 1650
+Wire Wire Line
+	1450 1650 1700 1650
+Wire Wire Line
+	1450 1950 1450 2150
+Connection ~ 1450 1950
+Wire Wire Line
+	1450 1950 1700 1950
+$Comp
+L power:GND #PWR0108
+U 1 1 60B369B1
+P 3750 2700
+F 0 "#PWR0108" H 3750 2450 50  0001 C CNN
+F 1 "GND" H 3750 2550 50  0000 C CNN
+F 2 "" H 3750 2700 50  0001 C CNN
+F 3 "" H 3750 2700 50  0001 C CNN
+	1    3750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4700 7000 4700
+Wire Wire Line
+	7000 4700 7000 5100
+Connection ~ 5950 4700
+Wire Wire Line
+	5950 4700 5950 4750
+Wire Wire Line
+	8200 2000 8200 3150
+$Comp
+L SER2915L-223KL:SER2915L-223KL L1
+U 1 1 60B2800C
+P 8700 3150
+F 0 "L1" H 8700 3331 50  0000 C CNN
+F 1 "SER2915L-223KL" H 8700 3240 50  0000 C CNN
+F 2 "IND_SER2915L-223KL" H 8700 3150 50  0001 L BNN
+F 3 "" H 8700 3150 50  0001 L BNN
+F 4 "SER2915L-223KL" H 8700 3150 50  0001 L BNN "MP"
+F 5 "Unavailable" H 8700 3150 50  0001 L BNN "Availability"
+F 6 "None" H 8700 3150 50  0001 L BNN "Package"
+F 7 "None" H 8700 3150 50  0001 L BNN "Price"
+F 8 "Power inductor, high current, 10% tol, SMT, RoHS" H 8700 3150 50  0001 L BNN "Description"
+F 9 "Coilcraft" H 8700 3150 50  0001 L BNN "MF"
+	1    8700 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 3150
+Wire Wire Line
+	8200 3150 8200 5100
+Wire Wire Line
+	9200 3150 9200 3400
+Connection ~ 9200 3400
+Wire Wire Line
+	9200 3400 9650 3400
+Wire Wire Line
+	3750 2250 3750 2700
+$Comp
+L GRM033R71A332KA01D:GRM033R71A332KA01D Css1
+U 1 1 60B291E6
+P 3750 2050
+F 0 "Css1" V 3754 2153 50  0001 L CNN
+F 1 "3.3nF,1mOhm" V 3845 2153 50  0000 L CNN
+F 2 "CAPC0603X33N" H 3750 2050 50  0001 L BNN
+F 3 "" H 3750 2050 50  0001 L BNN
+	1    3750 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3450 2900 3550
+Wire Wire Line
+	2900 3850 2900 4100
+$Comp
+L Device:C Ccomp2
+U 1 1 60B29A6A
+P 2900 3700
+F 0 "Ccomp2" H 3015 3746 50  0000 L CNN
+F 1 "330pF,1mOhm" H 3015 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 3550 50  0001 C CNN
+F 3 "~" H 2900 3700 50  0001 C CNN
+	1    2900 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
