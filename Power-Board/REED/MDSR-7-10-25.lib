@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MDSR-7-10-25
+#/1119637/501695/2.49/2/4/Switch
+DEF MDSR-7-10-25 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "MDSR-7-10-25" 650 200 50 H V L CNN
+F2 "MDSR71025" 650 100 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/reed_switches/littelfuse_reed_switches_mdsr_7_datasheet.pdf.pdf" 650 0 50 H I L CNN
+F4 "Magnetic / Reed Switches SWITCH REED" 650 -100 50 H I L CNN "Description"
+F5 "1.8" 650 -200 50 H I L CNN "Height"
+F6 "934-MDSR-710-25" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/MDSR-7-10-25?qs=nyo4TFax6NfsQktI2gkLXw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MDSR-7-10-25" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

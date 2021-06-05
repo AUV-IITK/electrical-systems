@@ -8,4 +8,6 @@
   (lib (name SamacSys_Parts)(type Legacy)(uri C:/Users/neelabh/Documents/PowerBoard/NMOS/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name MMBT3906)(type Legacy)(uri C:/Users/neelabh/Documents/PowerBoard/BJT/MMBT3906.lib)(options "")(descr ""))
   (lib (name LM7805CT_NOPB)(type Legacy)(uri C:/Users/neelabh/Documents/PowerBoard/LM7805CT_NOPB.lib)(options "")(descr ""))
+  (lib (name SIS427EDN-T1-GE3)(type Legacy)(uri C:/Users/neelabh/Documents/git/electrical-systems/Power-Board/PMOS/SIS427EDN-T1-GE3.lib)(options "")(descr ""))
+  (lib (name MDSR-7-10-25)(type Legacy)(uri C:/Users/neelabh/Documents/git/electrical-systems/Power-Board/REED/MDSR-7-10-25.lib)(options "")(descr ""))
 )
