@@ -4,4 +4,5 @@
   (lib (name Device)(type Legacy)(uri ${KIPRJMOD}/Device.lib)(options "")(descr ""))
   (lib (name 2021-01-31_19-46-59)(type Legacy)(uri ${KIPRJMOD}/2021-01-31_19-46-59.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KIPRJMOD}/project1/power/power.lib)(options "")(descr ""))
+  (lib (name boost19_v-rescue)(type Legacy)(uri ${KIPRJMOD}/boost19_v-rescue.lib)(options "")(descr ""))
 )
