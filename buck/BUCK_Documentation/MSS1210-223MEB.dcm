@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSS1210-223MEB
+D Fixed Inductors MSS1210 AEC-Q200 22 uH 20 % 6.7 A
+K
+F https://www.coilcraft.com/pdfs/MSS1210.pdf
+$ENDCMP
+#
+#End Doc Library

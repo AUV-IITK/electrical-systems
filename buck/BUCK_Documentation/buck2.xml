@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>X:\KiCAD\buck2\buck2.sch</source>
+    <date>05/29/21 21:45:15</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>buck2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Cvcc1">
+      <value>1uF,1mOhm</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AACC27</tstamp>
+    </comp>
+    <comp ref="Ccomp1">
+      <value>18nF,0Ohm</value>
+      <footprint>Capacitor_SMD:C_1812_4532Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD38A</tstamp>
+    </comp>
+    <comp ref="Cbst1">
+      <value>100nF,1mOhm</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAD6A3</tstamp>
+    </comp>
+    <comp ref="Rcomp1">
+      <value>2.43kOhm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAE3A2</tstamp>
+    </comp>
+    <comp ref="Rpgood1">
+      <value>100kOhm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAEF86</tstamp>
+    </comp>
+    <comp ref="Rs1">
+      <value>1.87kOhm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAF2C6</tstamp>
+    </comp>
+    <comp ref="Rfbb1">
+      <value>715Ohm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAF7FE</tstamp>
+    </comp>
+    <comp ref="Rfbt1">
+      <value>10kOhm</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AAFF8A</tstamp>
+    </comp>
+    <comp ref="Ccomp2">
+      <value>330pF,0Ohm</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="CL21C331JBANNNC" part="CL21C331JBANNNC" description="Samsung Electro-Mechanics CL21C331JBANNNC 330pF Multilayer Ceramic Capacitor MLCC 50V dc +/-5% Tolerance SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB4F09</tstamp>
+    </comp>
+    <comp ref="Cbyp1">
+      <value>2.2uF,1mOhm</value>
+      <footprint>buck2_footprint_custom_library:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/EMK212BJ225KG-T.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 16V X5R +/-10% 0805 Gen Purp</field>
+        <field name="Height">1.35</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">EMK212BJ225KG-T</field>
+        <field name="Mouser Part Number">963-EMK212BJ225KG-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=963-EMK212BJ225KG-T</field>
+      </fields>
+      <libsource lib="EMK212BJ225KG-T" part="EMK212BJ225KG-T" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 16V X5R +/-10% 0805 Gen Purp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB5D27</tstamp>
+    </comp>
+    <comp ref="Cout1">
+      <value>22uF,1mOhm</value>
+      <footprint>buck2_footprint_custom_library:CAPC3225X270N</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200</field>
+        <field name="Height">2.7</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">TMK325B7226KMHP</field>
+        <field name="Mouser Part Number">963-TMK325B7226KMHP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/TMK325B7226KMHP?qs=sBf%2Fb4nBSlcFBm9KJOCQlw%3D%3D</field>
+      </fields>
+      <libsource lib="TMK325B7226KMHP" part="TMK325B7226KMHP" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB6532</tstamp>
+    </comp>
+    <comp ref="Cout2">
+      <value>22uF,1mOhm</value>
+      <footprint>buck2_footprint_custom_library:CAPC3225X270N</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200</field>
+        <field name="Height">2.7</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">TMK325B7226KMHP</field>
+        <field name="Mouser Part Number">963-TMK325B7226KMHP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/TMK325B7226KMHP?qs=sBf%2Fb4nBSlcFBm9KJOCQlw%3D%3D</field>
+      </fields>
+      <libsource lib="TMK325B7226KMHP" part="TMK325B7226KMHP" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB6E9A</tstamp>
+    </comp>
+    <comp ref="Ccomp3">
+      <value>4.7nF,0Ohm</value>
+      <footprint>buck2_footprint_custom_library:CAPC2012X75N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/CGA4C2C0G1H472J060AA.pdf</datasheet>
+      <fields>
+        <field name="Height">0.75</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">CGA4C2C0G1H472J060AA</field>
+        <field name="Mouser Part Number">810-CGA4C2C0G1H472J</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4C2C0G1H472J</field>
+      </fields>
+      <libsource lib="CGA4C2C0G1H472J060AA" part="CGA4C2C0G1H472J060AA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB7C8D</tstamp>
+    </comp>
+    <comp ref="Rcomp2">
+      <value>191Ohm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AB93E4</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>30V,56Amps</value>
+      <footprint>buck2_footprint_custom_library:DQG_VSON-CLIP</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/csd17304q3</datasheet>
+      <fields>
+        <field name="Description">30V, N ch NexFET MOSFET, single SON3x3, 8.8mOhm</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CSD17304Q3</field>
+        <field name="Mouser Part Number">595-CSD17304Q3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17304Q3?qs=BmtUOLWBNQpZvkQf4iFFvQ%3D%3D</field>
+      </fields>
+      <libsource lib="CSD17304Q3" part="CSD17304Q3" description="30V, N ch NexFET MOSFET, single SON3x3, 8.8mOhm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AE00A4</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>30V,35Amps</value>
+      <footprint>buck2_footprint_custom_library:Q3A</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/csd17577q3a</datasheet>
+      <fields>
+        <field name="Description">30V, N ch NexFET MOSFET, single SON3x3, 6.4mOhm</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CSD17577Q3A</field>
+        <field name="Mouser Part Number">595-CSD17577Q3A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17577Q3A?qs=m%2F7bTylgptdTq6Yorh0Ysg%3D%3D</field>
+      </fields>
+      <libsource lib="CSD17577Q3A" part="CSD17577Q3A" description="30V, N ch NexFET MOSFET, single SON3x3, 6.4mOhm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AE1043</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPS40303DRCR</value>
+      <footprint>buck2_footprint_custom_library:TPS40303DRCR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps40303.pdf?ts=1621506755531</datasheet>
+      <fields>
+        <field name="Description">Switching Controllers 3-20V Wide Input Sync Buck Controller</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS40303DRCR</field>
+      </fields>
+      <libsource lib="TPS40303DRCR" part="TPS40303DRCR" description="Switching Controllers 3-20V Wide Input Sync Buck Controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AA79C7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>436500400</value>
+      <footprint>buck2_footprint_custom_library:436500400</footprint>
+      <libsource lib="2021-05-23_18-31-57" part="436500400" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B181C9</tstamp>
+    </comp>
+    <comp ref="Cin2">
+      <value>10uF,1mOhm</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B26477</tstamp>
+    </comp>
+    <comp ref="Cin1">
+      <value>10uF,1mOhm</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B28572</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>SER2915L-223KL</value>
+      <footprint>IND_SER2915L-223KL</footprint>
+      <fields>
+        <field name="Availability">Unavailable</field>
+        <field name="Description">Power inductor, high current, 10% tol, SMT, RoHS</field>
+        <field name="MF">Coilcraft</field>
+        <field name="MP">SER2915L-223KL</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+      </fields>
+      <libsource lib="SER2915L-223KL" part="SER2915L-223KL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B2800C</tstamp>
+    </comp>
+    <comp ref="Css1">
+      <value>3.3nF,1mOhm</value>
+      <footprint>CAPC0603X33N</footprint>
+      <libsource lib="GRM033R71A332KA01D" part="GRM033R71A332KA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B291E6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2021-05-23_18-31-57" part="436500400">
+      <footprints>
+        <fp>CON_436500400_MOL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">436500400</field>
+        <field name="Footprint">CON_436500400_MOL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="CGA4C2C0G1H472J060AA" part="CGA4C2C0G1H472J060AA">
+      <docs>https://componentsearchengine.com/Datasheets/1/CGA4C2C0G1H472J060AA.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CGA4C2C0G1H472J060AA</field>
+        <field name="Footprint">CAPC2012X75N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/CGA4C2C0G1H472J060AA.pdf</field>
+        <field name="Height">0.75</field>
+        <field name="Mouser Part Number">810-CGA4C2C0G1H472J</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA4C2C0G1H472J</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">CGA4C2C0G1H472J060AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CL21C331JBANNNC" part="CL21C331JBANNNC">
+      <description>Samsung Electro-Mechanics CL21C331JBANNNC 330pF Multilayer Ceramic Capacitor MLCC 50V dc +/-5% Tolerance SMD</description>
+      <docs>https://www.arrow.com/en/products/cl21c331jbannnc/samsung-electro-mechanics</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL21C331JBANNNC</field>
+        <field name="Footprint">CAPC2012X75N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/cl21c331jbannnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics CL21C331JBANNNC 330pF Multilayer Ceramic Capacitor MLCC 50V dc +/-5% Tolerance SMD</field>
+        <field name="Height">0.75</field>
+        <field name="Mouser Part Number">187-CL21C331JBANNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21C331JBANNNC?qs=349EhDEZ59pyBw54jZFvfw%3D%3D</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21C331JBANNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CSD17304Q3" part="CSD17304Q3">
+      <description>30V, N ch NexFET MOSFET, single SON3x3, 8.8mOhm</description>
+      <docs>http://www.ti.com/lit/gpn/csd17304q3</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD17304Q3</field>
+        <field name="Footprint">DQG_VSON-CLIP</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/csd17304q3</field>
+        <field name="Description">30V, N ch NexFET MOSFET, single SON3x3, 8.8mOhm</field>
+        <field name="Mouser Part Number">595-CSD17304Q3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17304Q3?qs=BmtUOLWBNQpZvkQf4iFFvQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CSD17304Q3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="input"/>
+        <pin num="2" name="S_2" type="input"/>
+        <pin num="3" name="S_3" type="input"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D_1" type="output"/>
+        <pin num="6" name="D_2" type="output"/>
+        <pin num="7" name="D_3" type="output"/>
+        <pin num="8" name="D_4" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="CSD17577Q3A" part="CSD17577Q3A">
+      <description>30V, N ch NexFET MOSFET, single SON3x3, 6.4mOhm</description>
+      <docs>http://www.ti.com/lit/gpn/csd17577q3a</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD17577Q3A</field>
+        <field name="Footprint">Q3A</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/csd17577q3a</field>
+        <field name="Description">30V, N ch NexFET MOSFET, single SON3x3, 6.4mOhm</field>
+        <field name="Mouser Part Number">595-CSD17577Q3A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17577Q3A?qs=m%2F7bTylgptdTq6Yorh0Ysg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CSD17577Q3A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="passive"/>
+        <pin num="2" name="S_2" type="passive"/>
+        <pin num="3" name="S_3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D_1" type="passive"/>
+        <pin num="6" name="D_2" type="passive"/>
+        <pin num="7" name="D_3" type="passive"/>
+        <pin num="8" name="D_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EMK212BJ225KG-T" part="EMK212BJ225KG-T">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 16V X5R +/-10% 0805 Gen Purp</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/EMK212BJ225KG-T.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EMK212BJ225KG-T</field>
+        <field name="Footprint">CAPC2012X135N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/EMK212BJ225KG-T.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 16V X5R +/-10% 0805 Gen Purp</field>
+        <field name="Height">1.35</field>
+        <field name="Mouser Part Number">963-EMK212BJ225KG-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=963-EMK212BJ225KG-T</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">EMK212BJ225KG-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GRM033R71A332KA01D" part="GRM033R71A332KA01D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM033R71A332KA01D</field>
+        <field name="Footprint">CAPC0603X33N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SER2915L-223KL" part="SER2915L-223KL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SER2915L-223KL</field>
+        <field name="Footprint">IND_SER2915L-223KL</field>
+        <field name="MP">SER2915L-223KL</field>
+        <field name="Availability">Unavailable</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Description">Power inductor, high current, 10% tol, SMT, RoHS</field>
+        <field name="MF">Coilcraft</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMK325B7226KMHP" part="TMK325B7226KMHP">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200</description>
+      <docs>https://www.mouser.mx/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">TMK325B7226KMHP</field>
+        <field name="Footprint">CAPC3225X270N</field>
+        <field name="Datasheet">https://www.mouser.mx/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 25V 22uF 10% X7R AEC-Q200</field>
+        <field name="Height">2.7</field>
+        <field name="Mouser Part Number">963-TMK325B7226KMHP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/TMK325B7226KMHP?qs=sBf%2Fb4nBSlcFBm9KJOCQlw%3D%3D</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">TMK325B7226KMHP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS40303DRCR" part="TPS40303DRCR">
+      <description>Switching Controllers 3-20V Wide Input Sync Buck Controller</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps40303.pdf?ts=1621506755531</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS40303DRCR</field>
+        <field name="Footprint">TPS40303DRCR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps40303.pdf?ts=1621506755531</field>
+        <field name="Description">Switching Controllers 3-20V Wide Input Sync Buck Controller</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS40303DRCR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="EN/SS" type="passive"/>
+        <pin num="3" name="PGOOD" type="passive"/>
+        <pin num="4" name="COMP" type="passive"/>
+        <pin num="5" name="FB" type="passive"/>
+        <pin num="6" name="BOOT" type="passive"/>
+        <pin num="7" name="HDRV" type="passive"/>
+        <pin num="8" name="SW" type="passive"/>
+        <pin num="9" name="LDRV/OC" type="passive"/>
+        <pin num="10" name="BP" type="passive"/>
+        <pin num="11" name="EP/GND_1" type="passive"/>
+        <pin num="12" name="EP/GND_2" type="passive"/>
+        <pin num="13" name="EP/GND_3" type="passive"/>
+        <pin num="14" name="EP/GND_4" type="passive"/>
+        <pin num="15" name="EP/GND_5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2021-05-23_18-31-57">
+      <uri>X:\KiCAD\buck2/2021-05-23_18-31-57.lib</uri>
+    </library>
+    <library logical="CGA4C2C0G1H472J060AA">
+      <uri>X:\KiCAD\buck2/CGA4C2C0G1H472J060AA.lib</uri>
+    </library>
+    <library logical="CL21C331JBANNNC">
+      <uri>X:\KiCAD\buck2/CL21C331JBANNNC.lib</uri>
+    </library>
+    <library logical="CSD17304Q3">
+      <uri>X:\KiCAD\buck2/CSD17304Q3.lib</uri>
+    </library>
+    <library logical="CSD17577Q3A">
+      <uri>X:\KiCAD\buck2/CSD17577Q3A.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Softwares\KiCAD\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="EMK212BJ225KG-T">
+      <uri>X:\KiCAD\buck2/EMK212BJ225KG-T.lib</uri>
+    </library>
+    <library logical="GRM033R71A332KA01D">
+      <uri>X:\KiCAD\buck2/GRM033R71A332KA01D.lib</uri>
+    </library>
+    <library logical="SER2915L-223KL">
+      <uri>X:\KiCAD\buck2/SER2915L-223KL.lib</uri>
+    </library>
+    <library logical="TMK325B7226KMHP">
+      <uri>X:\KiCAD\buck2/TMK325B7226KMHP.lib</uri>
+    </library>
+    <library logical="TPS40303DRCR">
+      <uri>X:\KiCAD\buck2/TPS40303DRCR.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Cbst1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="Cbst1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Css1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="Css1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Rpgood1-Pad1)">
+      <node ref="Rpgood1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(M1-Pad4)">
+      <node ref="M1" pin="4"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="5" name="Net-(Cbst1-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="M2" pin="8"/>
+      <node ref="M2" pin="7"/>
+      <node ref="M2" pin="6"/>
+      <node ref="M2" pin="5"/>
+      <node ref="M1" pin="3"/>
+      <node ref="M1" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="Cbst1" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(M2-Pad4)">
+      <node ref="M2" pin="4"/>
+      <node ref="Rs1" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="7" name="Net-(Cbyp1-Pad1)">
+      <node ref="Cbyp1" pin="1"/>
+      <node ref="Rpgood1" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="8" name="Vin2">
+      <node ref="Rs1" pin="2"/>
+      <node ref="Cin2" pin="2"/>
+      <node ref="Cvcc1" pin="1"/>
+      <node ref="Rfbb1" pin="2"/>
+      <node ref="Cbyp1" pin="2"/>
+      <node ref="Cout1" pin="1"/>
+      <node ref="Cout2" pin="1"/>
+      <node ref="M2" pin="1"/>
+      <node ref="M2" pin="2"/>
+      <node ref="M2" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="15"/>
+      <node ref="Css1" pin="2"/>
+      <node ref="Cin1" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="9" name="Vout1">
+      <node ref="J1" pin="4"/>
+      <node ref="Rcomp2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="Rfbt1" pin="1"/>
+      <node ref="Cout2" pin="2"/>
+      <node ref="Cout1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(Ccomp1-Pad2)">
+      <node ref="Ccomp2" pin="1"/>
+      <node ref="Ccomp1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="FB-1">
+      <node ref="U1" pin="5"/>
+      <node ref="Rfbt1" pin="2"/>
+      <node ref="Rfbb1" pin="1"/>
+      <node ref="Rcomp1" pin="2"/>
+      <node ref="Ccomp2" pin="2"/>
+      <node ref="Ccomp3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Ccomp1-Pad1)">
+      <node ref="Ccomp1" pin="1"/>
+      <node ref="Rcomp1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Ccomp3-Pad1)">
+      <node ref="Ccomp3" pin="1"/>
+      <node ref="Rcomp2" pin="2"/>
+    </net>
+    <net code="14" name="Vin1">
+      <node ref="U1" pin="1"/>
+      <node ref="M1" pin="5"/>
+      <node ref="Cin2" pin="1"/>
+      <node ref="M1" pin="7"/>
+      <node ref="M1" pin="8"/>
+      <node ref="M1" pin="6"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Cin1" pin="1"/>
+      <node ref="Cvcc1" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD17577Q3A
+D 30V, N ch NexFET MOSFET, single SON3x3, 6.4mOhm
+K
+F http://www.ti.com/lit/gpn/csd17577q3a
+$ENDCMP
+#
+#End Doc Library

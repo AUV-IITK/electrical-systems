@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name buck2_footprint_custom_library)(type KiCad)(uri ${KIPRJMOD}/buck2_footprint_custom_library.pretty)(options "")(descr ""))
+)
