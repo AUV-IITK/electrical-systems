@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIS427EDN-T1-GE3
+D MOSFET -30V Vds 25V Vgs PowerPAK 1212-8
+K
+F http://www.vishay.com/docs/62856/sis427edn.pdf
+$ENDCMP
+#
+#End Doc Library
