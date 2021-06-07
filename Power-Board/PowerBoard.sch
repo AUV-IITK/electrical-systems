@@ -163,8 +163,8 @@ Wire Wire Line
 Wire Wire Line
 	9950 5150 10200 5150
 Wire Wire Line
-	10200 5750 9950 5750
-Text Label 10200 5750 0    50   ~ 0
+	10200 5850 9950 5850
+Text Label 10200 5850 0    50   ~ 0
 CTRL1
 $Comp
 L PowerBoard-rescue:BMP388-BMP388 U2
@@ -241,9 +241,9 @@ Wire Wire Line
 Wire Wire Line
 	8550 4650 8250 4650
 Wire Wire Line
-	8550 5050 8250 5050
+	8550 6050 8250 6050
 Wire Wire Line
-	8550 5150 8250 5150
+	8550 5750 8250 5750
 Text Label 5950 5350 0    50   ~ 0
 3.3V
 Text Label 5950 5450 0    50   ~ 0
@@ -313,9 +313,9 @@ Text Label 8250 4550 0    50   ~ 0
 SDA
 Text Label 8250 4650 0    50   ~ 0
 SCL
-Text Label 8250 5050 0    50   ~ 0
+Text Label 8250 6050 0    50   ~ 0
 SCK
-Text Label 8250 5150 0    50   ~ 0
+Text Label 8250 5750 0    50   ~ 0
 SI
 Text Label 4450 6050 0    50   ~ 0
 GND
@@ -856,14 +856,14 @@ Wire Wire Line
 Wire Wire Line
 	2850 5500 2550 5500
 Wire Wire Line
-	10200 5650 9950 5650
+	10200 5750 9950 5750
 Text Label 2850 5500 0    50   ~ 0
 CTRL2
 Text Label 2850 5600 0    50   ~ 0
 MIN3
 Text Label 650  5800 0    50   ~ 0
 MIN4
-Text Label 10200 5650 0    50   ~ 0
+Text Label 10200 5750 0    50   ~ 0
 CTRL2
 Text Label 4800 4500 0    50   ~ 0
 MIN4
@@ -927,18 +927,18 @@ Wire Notes Line
 	6800 7600 5450 7600
 Wire Notes Line
 	5450 7600 5450 6650
-Text Label 9950 6150 0    50   ~ 0
+Text Label 9950 5650 0    50   ~ 0
 leak_signal
 Wire Wire Line
-	9950 6150 10250 6150
+	9950 5650 10250 5650
 Wire Wire Line
-	8550 6150 8250 6150
-Text Label 8250 6150 0    50   ~ 0
+	8550 5550 8250 5550
+Text Label 8250 5550 0    50   ~ 0
 RST
-Text Label 8250 6050 0    50   ~ 0
+Text Label 8250 5650 0    50   ~ 0
 RS
 Wire Wire Line
-	8250 6050 8550 6050
+	8250 5650 8550 5650
 Wire Wire Line
 	8250 5450 8550 5450
 Text Label 8250 5450 0    50   ~ 0
@@ -954,14 +954,14 @@ Wire Wire Line
 Text Label 1000 7450 0    50   ~ 0
 TP_SO
 Wire Wire Line
-	8300 5250 8550 5250
+	8300 5050 8550 5050
 Wire Wire Line
 	9700 5750 9950 5750
-Text Label 8300 5250 0    50   ~ 0
+Text Label 8300 5050 0    50   ~ 0
 K1
-Text Label 8250 5350 0    50   ~ 0
+Text Label 8250 5150 0    50   ~ 0
 K2
-Text Label 8250 5550 0    50   ~ 0
+Text Label 8250 5250 0    50   ~ 0
 K3
 Wire Wire Line
 	1050 7550 1300 7550
@@ -975,22 +975,22 @@ Text Label 2050 7550 0    50   ~ 0
 LCD_CS
 Text Label 2050 7650 0    50   ~ 0
 TP_CS
-Text Label 10250 6050 0    50   ~ 0
+Text Label 8250 5350 0    50   ~ 0
 TP_IRQ
 Text Label 8250 5850 0    50   ~ 0
 TP_SO
-Text Label 8250 5750 0    50   ~ 0
+Text Label 8300 6150 0    50   ~ 0
 TP_CS
-Text Label 8250 5650 0    50   ~ 0
+Text Label 9950 5350 0    50   ~ 0
 LCD_CS
 Wire Wire Line
-	9950 6050 10250 6050
+	8250 5350 8550 5350
 Wire Wire Line
 	8250 5850 8550 5850
 Wire Wire Line
-	8250 5750 8550 5750
+	8300 6150 8550 6150
 Wire Wire Line
-	8250 5650 8550 5650
+	9950 5350 10250 5350
 Connection ~ 3950 2900
 Wire Wire Line
 	3950 2700 3950 2900
@@ -1080,34 +1080,34 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J14
 U 1 1 60B6C7FA
-P 4050 6900
-F 0 "J14" H 4156 7078 50  0000 C CNN
-F 1 "Boost_out" H 4156 6987 50  0000 C CNN
-F 2 "footprint:input" H 4050 6900 50  0001 C CNN
-F 3 "~" H 4050 6900 50  0001 C CNN
-	1    4050 6900
+P 3950 7250
+F 0 "J14" H 4056 7428 50  0000 C CNN
+F 1 "Boost_out" H 4056 7337 50  0000 C CNN
+F 2 "footprint:input" H 3950 7250 50  0001 C CNN
+F 3 "~" H 3950 7250 50  0001 C CNN
+	1    3950 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J12
 U 1 1 60B768CC
-P 3650 7350
-F 0 "J12" H 3756 7528 50  0000 C CNN
-F 1 "Buck_out" H 3756 7437 50  0000 C CNN
-F 2 "footprint:input" H 3650 7350 50  0001 C CNN
-F 3 "~" H 3650 7350 50  0001 C CNN
-	1    3650 7350
+P 3100 7300
+F 0 "J12" H 3206 7478 50  0000 C CNN
+F 1 "Buck_out" H 3206 7387 50  0000 C CNN
+F 2 "footprint:input" H 3100 7300 50  0001 C CNN
+F 3 "~" H 3100 7300 50  0001 C CNN
+	1    3100 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 60B8099F
-P 3000 7350
-F 0 "J5" H 3106 7528 50  0000 C CNN
-F 1 "Buck_out" H 3106 7437 50  0000 C CNN
-F 2 "footprint:input" H 3000 7350 50  0001 C CNN
-F 3 "~" H 3000 7350 50  0001 C CNN
-	1    3000 7350
+P 2800 7300
+F 0 "J5" H 2906 7478 50  0000 C CNN
+F 1 "Buck_out" H 2906 7387 50  0000 C CNN
+F 2 "footprint:input" H 2800 7300 50  0001 C CNN
+F 3 "~" H 2800 7300 50  0001 C CNN
+	1    2800 7300
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1115,12 +1115,12 @@ Wire Notes Line
 $Comp
 L Connector:Conn_01x02_Male J15
 U 1 1 60BB32BF
-P 4300 7350
-F 0 "J15" H 4406 7528 50  0000 C CNN
-F 1 "Buck_out" H 4406 7437 50  0000 C CNN
-F 2 "footprint:input" H 4300 7350 50  0001 C CNN
-F 3 "~" H 4300 7350 50  0001 C CNN
-	1    4300 7350
+P 3500 7250
+F 0 "J15" H 3606 7428 50  0000 C CNN
+F 1 "Buck_out" H 3606 7337 50  0000 C CNN
+F 2 "footprint:input" H 3500 7250 50  0001 C CNN
+F 3 "~" H 3500 7250 50  0001 C CNN
+	1    3500 7250
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1129,13 +1129,13 @@ Wire Notes Line
 	2750 6650 4700 6650
 Wire Notes Line
 	2750 7600 4700 7600
-Text Label 4250 7000 0    50   ~ 0
+Text Label 4150 7350 0    50   ~ 0
 BOOST_OUT
 Text Label 3500 6900 0    50   ~ 0
 RV1
 Text Label 3500 7000 0    50   ~ 0
 GND
-Text Label 4250 6900 0    50   ~ 0
+Text Label 4150 7250 0    50   ~ 0
 GND
 $Comp
 L Device:LED D4
@@ -1473,22 +1473,22 @@ F 3 "~" H 4550 1500 50  0001 C CNN
 	1    4550 1500
 	1    0    0    -1  
 $EndComp
-Text Label 4500 7350 0    50   ~ 0
+Text Label 3700 7250 0    50   ~ 0
 GND
-Text Label 4500 7450 0    50   ~ 0
+Text Label 3700 7350 0    50   ~ 0
 Buck_Out
-Text Label 3850 7350 0    50   ~ 0
+Text Label 3300 7300 0    50   ~ 0
 GND
-Text Label 3850 7450 0    50   ~ 0
+Text Label 3300 7400 0    50   ~ 0
 Buck_Out
-Text Label 3200 7350 0    50   ~ 0
+Text Label 3000 7300 0    50   ~ 0
 GND
-Text Label 3200 7450 0    50   ~ 0
+Text Label 3000 7400 0    50   ~ 0
 Buck_Out
 Wire Wire Line
-	8250 5550 8550 5550
+	8250 5250 8550 5250
 Wire Wire Line
-	8250 5350 8550 5350
+	8250 5150 8550 5150
 Connection ~ 9950 5750
 $Comp
 L power:GND #PWR0105
@@ -1518,4 +1518,94 @@ $EndComp
 Connection ~ 4150 1200
 Wire Wire Line
 	4150 1200 4750 1200
+$Comp
+L Connector:Conn_01x02_Male J18
+U 1 1 60BDCC2D
+P 2850 6900
+F 0 "J18" H 2956 7078 50  0000 C CNN
+F 1 "Battery_out" H 2956 6987 50  0000 C CNN
+F 2 "footprint:input" H 2850 6900 50  0001 C CNN
+F 3 "~" H 2850 6900 50  0001 C CNN
+	1    2850 6900
+	1    0    0    -1  
+$EndComp
+Text Label 3050 6900 0    50   ~ 0
+RV1
+Text Label 3050 7000 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male J19
+U 1 1 60BF90E1
+P 3700 6900
+F 0 "J19" H 3806 7078 50  0000 C CNN
+F 1 "Battery_out" H 3806 6987 50  0000 C CNN
+F 2 "footprint:input" H 3700 6900 50  0001 C CNN
+F 3 "~" H 3700 6900 50  0001 C CNN
+	1    3700 6900
+	1    0    0    -1  
+$EndComp
+Text Label 3900 6900 0    50   ~ 0
+RV1
+Text Label 3900 7000 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male J20
+U 1 1 60C0732F
+P 4100 6900
+F 0 "J20" H 4206 7078 50  0000 C CNN
+F 1 "Battery_out" H 4206 6987 50  0000 C CNN
+F 2 "footprint:input" H 4100 6900 50  0001 C CNN
+F 3 "~" H 4100 6900 50  0001 C CNN
+	1    4100 6900
+	1    0    0    -1  
+$EndComp
+Text Label 4300 6900 0    50   ~ 0
+RV1
+Text Label 4300 7000 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male J21
+U 1 1 60C15580
+P 4400 6900
+F 0 "J21" H 4506 7078 50  0000 C CNN
+F 1 "Battery_out" H 4506 6987 50  0000 C CNN
+F 2 "footprint:input" H 4400 6900 50  0001 C CNN
+F 3 "~" H 4400 6900 50  0001 C CNN
+	1    4400 6900
+	1    0    0    -1  
+$EndComp
+Text Label 4600 6900 0    50   ~ 0
+RV1
+Text Label 4600 7000 0    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male J22
+U 1 1 60C15810
+P 10350 6750
+F 0 "J22" H 10456 6928 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 10456 6837 50  0000 C CNN
+F 2 "footprint:01x02" H 10350 6750 50  0001 C CNN
+F 3 "~" H 10350 6750 50  0001 C CNN
+	1    10350 6750
+	1    0    0    -1  
+$EndComp
+Text Label 10250 6150 0    50   ~ 0
+TX
+Text Label 10250 6050 0    50   ~ 0
+RX
+Wire Wire Line
+	10250 6050 9950 6050
+Wire Wire Line
+	10250 6150 9950 6150
+Text Label 10850 6850 0    50   ~ 0
+TX
+Text Label 10850 6750 0    50   ~ 0
+RX
+Wire Wire Line
+	10850 6750 10550 6750
+Wire Wire Line
+	10850 6850 10550 6850
+Connection ~ 8550 6150
+Wire Wire Line
+	8550 6150 8600 6150
 $EndSCHEMATC
