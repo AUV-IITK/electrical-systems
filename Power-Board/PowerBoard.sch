@@ -1048,8 +1048,6 @@ F 3 "" H 9250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 -350 2600 -300
-Wire Wire Line
 	2300 1650 2150 1650
 Text Label 5350 1500 0    50   ~ 0
 MOS2
@@ -1277,7 +1275,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 1600 4750 1650
 $Comp
-L SIS427EDN-T1-GE3:SIS427EDN-T1-GE3 Q1
+L PowerBoard-rescue:SIS427EDN-T1-GE3-SIS427EDN-T1-GE3 Q1
 U 1 1 60BBC978
 P 2550 800
 F 0 "Q1" H 3050 1065 50  0000 C CNN
@@ -1330,7 +1328,7 @@ Wire Wire Line
 Text Notes 5900 800  0    50   ~ 0
 Hard kill\n
 $Comp
-L SIS427EDN-T1-GE3:SIS427EDN-T1-GE3 Q3
+L PowerBoard-rescue:SIS427EDN-T1-GE3-SIS427EDN-T1-GE3 Q3
 U 1 1 60C7A442
 P 5150 800
 F 0 "Q3" H 5650 1065 50  0000 C CNN
@@ -1608,4 +1606,48 @@ Wire Wire Line
 Connection ~ 8550 6150
 Wire Wire Line
 	8550 6150 8600 6150
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60BF09A7
+P 6500 4300
+F 0 "H2" H 6600 4346 50  0000 L CNN
+F 1 "MountingHole" H 6600 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4300 50  0001 C CNN
+F 3 "~" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60BF0BC4
+P 6500 4500
+F 0 "H3" H 6600 4546 50  0000 L CNN
+F 1 "MountingHole" H 6600 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4500 50  0001 C CNN
+F 3 "~" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60BFF79A
+P 6500 4700
+F 0 "H4" H 6600 4746 50  0000 L CNN
+F 1 "MountingHole" H 6600 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4700 50  0001 C CNN
+F 3 "~" H 6500 4700 50  0001 C CNN
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60C0E33B
+P 6500 4100
+F 0 "H1" H 6600 4146 50  0000 L CNN
+F 1 "MountingHole" H 6600 4055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4100 50  0001 C CNN
+F 3 "~" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

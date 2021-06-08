@@ -981,7 +981,7 @@ Text Label 8250 5850 0    50   ~ 0
 TP_SO
 Text Label 8300 6150 0    50   ~ 0
 TP_CS
-Text Label 7750 5150 0    50   ~ 0
+Text Label 9950 5350 0    50   ~ 0
 LCD_CS
 Wire Wire Line
 	8250 5350 8550 5350
@@ -990,7 +990,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 6150 8550 6150
 Wire Wire Line
-	7750 5150 8050 5150
+	9950 5350 10250 5350
 Connection ~ 3950 2900
 Wire Wire Line
 	3950 2700 3950 2900
@@ -1047,8 +1047,6 @@ F 3 "" H 9250 6500 50  0001 C CNN
 	1    9250 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 -350 2600 -300
 Wire Wire Line
 	2300 1650 2150 1650
 Text Label 5350 1500 0    50   ~ 0
@@ -1608,4 +1606,48 @@ Wire Wire Line
 Connection ~ 8550 6150
 Wire Wire Line
 	8550 6150 8600 6150
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60BF09A7
+P 6500 4300
+F 0 "H2" H 6600 4346 50  0000 L CNN
+F 1 "MountingHole" H 6600 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4300 50  0001 C CNN
+F 3 "~" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60BF0BC4
+P 6500 4500
+F 0 "H3" H 6600 4546 50  0000 L CNN
+F 1 "MountingHole" H 6600 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4500 50  0001 C CNN
+F 3 "~" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60BFF79A
+P 6500 4700
+F 0 "H4" H 6600 4746 50  0000 L CNN
+F 1 "MountingHole" H 6600 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4700 50  0001 C CNN
+F 3 "~" H 6500 4700 50  0001 C CNN
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60C0E33B
+P 6500 4100
+F 0 "H1" H 6600 4146 50  0000 L CNN
+F 1 "MountingHole" H 6600 4055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 4100 50  0001 C CNN
+F 3 "~" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
