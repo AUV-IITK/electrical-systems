@@ -528,6 +528,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D Model/430450200.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprint:DGS10_TEX (layer F.Cu) (tedit 0) (tstamp 61105960)
@@ -2224,6 +2229,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D Model/533750210.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprint:01x02 (layer F.Cu) (tedit 0) (tstamp 61105A30)
@@ -2364,6 +2374,11 @@
       (net 11 /B1B))
     (pad M1 np_thru_hole circle (at -2.150008 4.319999 90) (size 2.999999 2.999999) (drill 2.999999) (layers *.Cu *.Mask))
     (pad M2 np_thru_hole circle (at -6.849999 4.319999 90) (size 2.999999 2.999999) (drill 2.999999) (layers *.Cu *.Mask))
+    (model "${KIPRJMOD}/3D Model/436500400.stp"
+      (offset (xyz -4.5 -4 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module footprint:CON_436500400_MOL (layer F.Cu) (tedit 60BE1D34) (tstamp 60BD5252)

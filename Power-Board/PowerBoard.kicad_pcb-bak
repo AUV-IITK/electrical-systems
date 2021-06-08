@@ -343,6 +343,11 @@
       (net 4 GND))
     (pad 2 thru_hole roundrect (at 3.74 0 180) (size 2.35 7) (drill oval 1 5.2) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
       (net 46 "Net-(J1-Pad2)"))
+    (model "${KIPRJMOD}/3D Model/molex_supersabre_1x2_172043-0201.stp"
+      (offset (xyz 48.5 -12.5 27))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 180))
+    )
   )
 
   (module footprint:01x02 (layer F.Cu) (tedit 0) (tstamp 60BD4417)
