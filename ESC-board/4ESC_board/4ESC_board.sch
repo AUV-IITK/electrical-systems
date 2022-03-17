@@ -159,7 +159,7 @@ F 3 "" H 1750 1250 50  0001 C CNN
 $EndComp
 Text Label 1250 1400 2    50   ~ 0
 VIN
-Text Label 1250 1500 2    50   ~ 0
+Text Label 1250 1800 3    50   ~ 0
 GND
 Text Label 6000 4500 3    50   ~ 0
 TB1
@@ -217,4 +217,15 @@ Text Label 2150 950  2    50   ~ 0
 VIN
 Text Label 2750 950  0    50   ~ 0
 GND
+$Comp
+L Device:Fuse F1
+U 1 1 6232DC6A
+P 1250 1650
+F 0 "F1" V 1350 1650 50  0000 C CNN
+F 1 "Fuse" V 1144 1650 50  0000 C CNN
+F 2 "minibladefuse:MCCQ-122" V 1180 1650 50  0001 C CNN
+F 3 "" H 1250 1650 50  0001 C CNN
+	1    1250 1650
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
