@@ -134,7 +134,7 @@ F 1 "1x5_connector" H 6478 774 50  0000 L CNN
 F 2 "molex:Molex_Microfit_1x5_436500500" H 6200 900 50  0001 C CNN
 F 3 "" H 6200 900 50  0001 C CNN
 	1    6200 900 
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Text Label 6000 1100 3    50   ~ 0
 SPEED1
@@ -157,9 +157,9 @@ F 3 "" H 1750 1250 50  0001 C CNN
 	1    1450 1450
 	0    1    1    0   
 $EndComp
-Text Label 1250 1400 2    50   ~ 0
+Text Label 950  1400 2    50   ~ 0
 VIN
-Text Label 1250 1500 2    50   ~ 0
+Text Label 1250 1500 3    50   ~ 0
 GND
 Text Label 6000 4500 3    50   ~ 0
 TB1
@@ -217,4 +217,15 @@ Text Label 2150 950  2    50   ~ 0
 VIN
 Text Label 2750 950  0    50   ~ 0
 GND
+$Comp
+L Device:Fuse F1
+U 1 1 6232DC6A
+P 1100 1400
+F 0 "F1" V 903 1400 50  0000 C CNN
+F 1 "Fuse" V 994 1400 50  0000 C CNN
+F 2 "minibladefuse:MCCQ-122" V 1030 1400 50  0001 C CNN
+F 3 "" H 1100 1400 50  0001 C CNN
+	1    1100 1400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
